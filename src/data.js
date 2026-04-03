@@ -1,0 +1,30 @@
+export const categories = [
+  "Salary",
+  "Freelance",
+  "Investments",
+  "Food",
+  "Transport",
+  "Shopping",
+  "Entertainment",
+  "Utilities",
+  "Rent",
+  "Health",
+];
+
+export const seedTransactions = [
+  { id: "tx1", date: "2026-01-03", description: "Monthly Salary", amount: 92000, category: "Salary", type: "income" },
+  { id: "tx2", date: "2026-01-08", description: "Grocery Store", amount: 4200, category: "Food", type: "expense" },
+  { id: "tx3", date: "2026-01-10", description: "Cab and Metro", amount: 1850, category: "Transport", type: "expense" },
+  { id: "tx4", date: "2026-01-14", description: "Freelance UI Project", amount: 24000, category: "Freelance", type: "income" },
+  { id: "tx5", date: "2026-01-21", description: "Shopping Mall", amount: 6800, category: "Shopping", type: "expense" },
+  { id: "tx6", date: "2026-02-02", description: "Monthly Salary", amount: 92000, category: "Salary", type: "income" },
+  { id: "tx7", date: "2026-02-06", description: "Electricity Bill", amount: 2600, category: "Utilities", type: "expense" },
+  { id: "tx8", date: "2026-02-12", description: "Mutual Fund Return", amount: 12000, category: "Investments", type: "income" },
+  { id: "tx9", date: "2026-02-16", description: "Dinner Outing", amount: 3400, category: "Food", type: "expense" },
+  { id: "tx10", date: "2026-02-24", description: "Movie Night", amount: 1500, category: "Entertainment", type: "expense" },
+  { id: "tx11", date: "2026-03-01", description: "Monthly Salary", amount: 92000, category: "Salary", type: "income" },
+  { id: "tx12", date: "2026-03-04", description: "House Rent", amount: 22000, category: "Rent", type: "expense" },
+  { id: "tx13", date: "2026-03-09", description: "Doctor Consultation", amount: 1800, category: "Health", type: "expense" },
+  { id: "tx14", date: "2026-03-15", description: "Freelance Landing Page", amount: 18000, category: "Freelance", type: "income" },
+  { id: "tx15", date: "2026-03-23", description: "Fuel and Travel", amount: 3200, category: "Transport", type: "expense" },
+];
